@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Secret Developers LTD</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Open+Sans:400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'home/'%}css/bootstrap.css">
+    <link rel="stylesheet" href="{% static 'home/'%}css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'home/'%}css/owl.carousel.min.css">
+    <link rel="stylesheet" href="{% static 'home/'%}css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{% static 'home/'%}css/magnific-popup.css">
+    <link rel="stylesheet" href="{% static 'home/'%}style.css">
+    <link rel="stylesheet" href="{% static 'home/'%}responsive.css">
+    <link rel="icon" href="{% static 'home/'%}img/secretDevLogoWhite.png">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+         <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-top">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-12 col-xs-12">
+                                    <div class="logo">
+                                        <h2><a href="#">Secret Developers</a></h2>
+                                    </div>
+                                </div>
+                                <div class="col-md-9 col-sm-12 col-xs-12">
+                                    <div class="menu">
+                                        <ul class="nav navbar-nav">
+                                            <li class="active"><a href="#">HOME</a></li>
+                                            <li><a href="#">ABOUT</a></li>
+                                            <li><a href="#">SERVICES</a></li>
+                                            <li><a href="#">PORTFOLIO</a></li>
+                                            <li><a href="#">TEAM</a></li>
+                                            <li><a href="#">CONTACT</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header-carousal owl-carousel owl-theme">
+                            <div class="item">
+                                <h4>WELCOME TO</h4>
+                                <h2>SECRET DEVELOPERS</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                    <br>dummy text ever since the 1500s, Lorem Ipsum. </p>
+                                <button>GET STARTED</button>
+                            </div>
+                            <div class="item">
+                                <h4>WE ARE</h4>
+                                <h2>CREATIVE DEVELOPER AGENCY</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                    <br>dummy text ever since the 1500s, Lorem Ipsum. </p>
+                                <button>GET STARTED</button>
+                            </div>
+                            <div class="item">
+                                <h4>SUPPORT US</h4>
+                                <h2>BE SMARTER EVERDAY</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                    <br>dummy text ever since the 1500s, Lorem Ipsum. </p>
+                                <button>GET STARTED</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        {% block content%}
+
+
+        {% endblock %}
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-5 col-xs-6">
+                        <div class="text">
+                            <p><span><a href="#">Secret Developers</a></span> &copy; 2020 All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-3 col-xs-4">
+                        <div class="footer-logo">
+                            <p><a href="https://www.secretdevbd.com">Secret Developers</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-2">
+                        <div class="icon">
+                            <p><a href="https://www.facebook.com/SecretDevLTD/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/secret_developers/"><i class="fa fa-instagram"></i></a>
+                            </p>
+                            <!---<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a> --->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <script src="{% static 'home/'%}js/jquery-3.1.1.min.js"></script>
+    <script src="{% static 'home/'%}js/bootstrap.min.js"></script>
+    <script src="{% static 'home/'%}js/owl.carousel.min.js"></script>
+    <script src="{% static 'home/'%}js/isotope.pkgd.js"></script>
+    <script src="{% static 'home/'%}js/masonry.js"></script>
+    <script src="{% static 'home/'%}js/jquery.magnific-popup.min.js"></script>
+    <script src="{% static 'home/'%}js/active.js"></script>
+</body>

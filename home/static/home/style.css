@@ -160,7 +160,7 @@
 }
 
 .wrapper section .about-icon::before {
-    background: #91328f none repeat scroll 0 0;
+    background: #2e2e2ef none repeat scroll 0 0;
     content: "";
     height: 1px;
     left: 0;
@@ -846,7 +846,7 @@
 }
 
 .wrapper section.footer-icon {
-    background: #e355fd;
+    background: #2e2e2e;
     padding: 105px 0
 }
 
@@ -905,7 +905,7 @@
     padding: 15px 45px;
     font-size: 18px;
     color: #fff;
-    background: #e355fd;
+    background: #2e2e2e;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
     border: none;
@@ -943,7 +943,7 @@
 }
 
 .wrapper footer.footer {
-    background: #e355fd;
+    background: #2e2e2e;
     height: 220px;
 }
 
@@ -958,7 +958,7 @@
 }
 
 .wrapper footer.footer .text p a {
-    color: #4500b6;
+    color: #cfcf00;
     text-decoration: none;
 }
 
