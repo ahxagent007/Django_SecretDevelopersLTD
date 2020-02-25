@@ -34,7 +34,6 @@ INSTALLED_APPS = [
     'skills.apps.SkillsConfig',
     'CV.apps.CvConfig',
     'home.apps.HomeConfig',
-    'testingshits.apps.TestingshitsConfig',
     
     'django.contrib.admin',
     'django.contrib.auth',
