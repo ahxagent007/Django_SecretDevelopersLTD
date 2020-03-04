@@ -82,17 +82,15 @@ WSGI_APPLICATION = 'SecretDevelopersLTD.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_db',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '',
-        'OPTIONS': {
-        'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-        }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'django_db.sqlite3',
     }
 }
+
+#'USER': '',
+#'PASSWORD': '',
+#'HOST': '',
+#'PORT': '',
 
 
 # Password validation
