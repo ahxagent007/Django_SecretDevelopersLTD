@@ -3,7 +3,7 @@ from django.template import loader
 from django.http import HttpResponse
 
 # Create your views here.
-from CV.models import Legends, WorkExperience, Skills, Education
+from CV.models import Legends, WorkExperience, Skills, Education, Works
 
 def CV(request):
 
@@ -26,6 +26,7 @@ def CVshow(request, name):
         all_Education = Education.objects.filter(L_id = all_details.L_id)
         all_WorkExperience = WorkExperience.objects.filter(L_id = all_details.L_id)
         all_Skills = Skills.objects.filter(L_id = all_details.L_id)
+        all_Works = Works.objects.filter(L_id = all_details.L_id)
 
     elif name == 'NILOY' or name == 'niloy':
         print('NILOY')
@@ -40,7 +41,8 @@ def CVshow(request, name):
         'legend': all_details,
         'E': all_Education,
         'WE': all_WorkExperience,
-        'S': all_Skills
+        'S': all_Skills,
+        'W' : all_Works
     }
 
     template = loader.get_template('CV/CV.html')

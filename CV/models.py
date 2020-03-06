@@ -42,3 +42,11 @@ class Skills(models.Model):
     S_id = models.AutoField(primary_key=True)
     S_name = models.CharField(max_length=100)
     S_power = models.IntegerField()
+
+class Works(models.Model):
+    L_id = models.ForeignKey(Legends, on_delete=models.CASCADE)
+    W_id = models.AutoField(primary_key=True)
+    W_name = models.CharField(max_length=100)
+    W_skill = models.CharField(max_length=100)
+    W_link = models.CharField(max_length=300)
+    W_pic = models.CharField(max_length=100)
